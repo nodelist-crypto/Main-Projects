@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #f4f6f8;
+  }
+  
+  .header {
+    background: linear-gradient(rgba(4, 50, 238, 0.5), rgba(30, 8, 4, 0.5)), url('Images/hero.png');
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .header .btn {
+    padding: 12px 30px;
+    background-color: #f77208;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .header .btn:hover {
+    background-color: #d86000;
+  }
+  
+  .services {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    background-color: #f77208;
+    color: white;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-outline-primary {
+    color: #f77208;
+    border-color: #f77208;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #f77208;
+    color: white;
+    border-color: #f77208;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
