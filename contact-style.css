@@ -1,0 +1,100 @@
+
+.ContactPage{
+
+    background-color: #ececec;
+  
+  }
+.ContactHeader {
+  min-height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 50, 238, 0.3), rgba(30, 8, 4, 0.3)),
+    url("Images/hand1.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.contact-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+  }
+    
+ 
+
+    .contact-body p{
+      font-size: 16px;
+      font-weight: lighter;
+      padding: 0px 60px;
+      text-align: justify;
+    }
+  
+    .contact-container img{
+  
+      width: 35%;
+
+
+  
+    }
+  
+    .contact-line{
+
+        background-color: rgb(255, 106, 0);
+        height: 5px;
+        margin: 0;
+    }
+  /* ================= */
+
+
+  
+.contact-city-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 40px 100px ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+
+
+  }
+    
+ 
+  .contact-city-body{
+
+    padding-right: 60px;
+
+  }
+    .contact-city-body p{
+      font-size: 18px;
+      padding: 0px 90px;
+      line-height: 1;
+      
+    }
+  
+    .contact-city-container img{
+  
+      width: 40%;
+      
+    }
+  
+    .text-orange{
+        color: coral;
+    }
+  
+
+    .map{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }

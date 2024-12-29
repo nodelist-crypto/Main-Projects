@@ -147,10 +147,11 @@ nav .fa {
     rgba(139, 21, 8, 1)
   ); */
   background-image: linear-gradient(
-
-    #92a7b3,
-    #8ba2ae,
-    #374045
+    45deg,
+    rgba(66, 66, 66, 0.8),
+    rgba(45, 49, 63, 0.3),
+    rgb(11, 6, 11),
+    rgb(169, 169, 169)
   );
   padding-bottom: 40px;
 }
@@ -164,35 +165,44 @@ nav .fa {
 }
 
 .card-containter {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+.card-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 50px 100px;
+}
 
 .card {
-  width: 220px;
+  width: 350px;
   height: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
-
-
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .card-content {
   border-radius: 0%;
-
 }
 
 .card-content h3 {
   font-weight: 200px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #f0ecec;
   margin-bottom: 8px;
@@ -205,7 +215,7 @@ justify-content: space-around;
 .card-content p {
   text-align: left;
   text-align: justify;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 30px;
   padding: 10px;
   line-height: 1.5;
@@ -681,8 +691,7 @@ background-color: #fda438;
   .ceo-body{
     margin: 10px;
     padding: 30px;
-    background-image: linear-gradient(rgba(4, 50, 238, 0.3), rgba(30, 8, 4, 0.3));
-
+    background-color: #E6E6E6;
 
   }
 
